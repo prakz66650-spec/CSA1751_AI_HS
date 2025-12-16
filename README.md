@@ -1,15 +1,19 @@
-*Algorithm for BFS Traversal*
+Algorithm: BFS(Graph, Start)
 
+1.  create an empty queue Q
+2.  create an empty set VISITED
 
-BFS(graph, start):
-    create an empty queue
-    mark start as visited
-    enqueue start
+3.  mark Start as visited
+4.  enqueue Start into Q
 
-    while queue is not empty:
-        node = dequeue
-        visit node
-        for each neighbor of node:
-            if neighbor is not visited:
-                mark visited
-                enqueue neighbor
+5.  while Q is not empty do
+6.      node ← dequeue Q
+7.      visit node
+8.      
+9.      for each neighbor N of node do
+10.         if N is not visited then
+11.             mark N as visited
+12.             enqueue N into Q
+13.         end if
+14.     end for
+15. end while
