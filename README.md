@@ -1,16 +1,22 @@
+Breadth First Search (BFS) – Pseudocode
+
 Algorithm: BFS(Graph, Start)
-1.  create an empty queue Q
-2.  create an empty set VISITED
-3.  mark Start as visited
-4.  enqueue Start into Q
-5.  while Q is not empty do
-6.      node ← dequeue Q
-7.      visit node
-8.      
-9.      for each neighbor N of node do
-10.         if N is not visited then
-11.             mark N as visited
-12.             enqueue N into Q
-13.         end if
-14.     end for
-15. end while
+
+Create an empty queue Q
+
+Create an empty set VISITED
+
+Mark Start as visited
+
+Enqueue Start into Q
+
+While Q is not empty, do
+6. Dequeue an element from Q and store it in node
+7. Visit node
+8. For each neighbor N of node, do
+
+If N is not visited, then
+
+Mark N as visited
+
+Enqueue N into Q
