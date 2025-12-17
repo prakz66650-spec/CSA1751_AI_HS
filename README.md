@@ -23,8 +23,6 @@ BFS(Graph, StartNode)
 END BFS
 ```
 
-```
-
 
 ## 3. Water Jug Problem (State Space Representation)
 
@@ -55,7 +53,6 @@ WaterJugSolver(JugA, JugB, Target)
 END WaterJugSolver
 ```
 
----
 
 ## 4. General Constraint Satisfaction Problem (CSP)
 
